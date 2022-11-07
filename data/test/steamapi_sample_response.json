@@ -1,0 +1,347 @@
+'{
+    "602960": {
+        "success": true,
+        "data": {
+            "type": "game",
+            "name": "Barotrauma",
+            "steam_appid": 602960,
+            "required_age": 0,
+            "is_free": false,
+            "dlc": [
+                1197650,
+                1197651
+            ],
+            "detailed_description": "<h1>Buzz<\\/h1><p><a href=\\"https:\\/\\/store.steampowered.com\\/app\\/1272010\\/\\" target=\\"_blank\\" rel=\\"\\"  id=\\"dynamiclink_0\\" >https:\\/\\/store.steampowered.com\\/app\\/1272010\\/<\\/a><\\/p><br><h1>DISCORD<\\/h1><p><a href=\\"https:\\/\\/steamcommunity.com\\/linkfilter\\/?url=https:\\/\\/discordapp.com\\/invite\\/xjeSzWU\\" target=\\"_blank\\" rel=\\" noopener\\"  ><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/Baro_Discord_English.gif?t=1667402793\\" \\/><\\/a><\\/p><br><h1>EARLY ACCESS ROADMAP<\\/h1><p><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/roadmap_210422.jpg?t=1667402793\\" \\/><\\/p><br><h1>About the Game<\\/h1><strong>&quot;Work together to explore and survive, and\\/or sabotage one another and let the ship go down in fire and flood.&quot;<\\/strong><br>- Rock Paper Shotgun<h2 class=\\"bb_tag\\">WELCOME TO EUROPA<\\/h2>Barotrauma is a 2D co-op survival horror submarine simulator, inspired by games like FTL: Faster Than Light, Rimworld, Dwarf Fortress and Space Station 13. It’s a Sci-Fi game that combines ragdoll physics and alien sea monsters with teamwork and existential fear.<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/Baro_Comand_616x250.gif?t=1667402793\\" \\/><h2 class=\\"bb_tag\\">EMBRACE THE ABYSS<\\/h2>In the not too distant future, humanity has fled to Jupiter’s moon. With its irradiated icy surface, life can only be found in the ocean below. Travel through a punishing underwater world and discover what lies in the depths of Europa. Stay alert: danger in Barotrauma doesn’t announce itself.<h2 class=\\"bb_tag\\">HELP YOUR CREW SUCCEED, OR MAKE SURE NO ONE DOES<\\/h2>There are as many ways to enjoy Barotrauma as there are ways to die in it. Work together with your crew to achieve your goals, or brace for betrayal when you have a traitor on board. Play with friends, strangers, or your worst enemies.<h2 class=\\"bb_tag\\">EXPLORE, OPERATE, COMMUNICATE<\\/h2>Navigate underwater, complete missions for the last remnants of humankind, explore the ruins of an alien civilization, flee or fight monsters. Operate complex on-board systems and devices like the sonar, nuclear reactor, weapons, engines and pumps. Communication is key!<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/Baro_Possibilities_616x250.gif?t=1667402793\\" \\/><h2 class=\\"bb_tag\\">EXPERIMENT, CRAFT, CREATE<\\/h2>Master the complex on-board wiring and the comprehensive crafting and medical systems. Create your own submarines and monsters with built-in editors to rival the standard ones. Even tap directly into our source code and mod away.<h2 class=\\"bb_tag\\">Features<\\/h2><br><ul class=\\"bb_ul\\"><li>Best enjoyed in multiplayer, with 2–16 players on a submarine. Supplement your player count with bots as needed; single player also available and being developed further.<br><\\/li><li>6 player classes with different skills and tasks: Captain, Engineer, Mechanic, Medic, Security officer and Assistant.<br><\\/li><li>Procedurally generated map and missions with multiple game modes for virtually endless replayability.<br><\\/li><li>Built-in Submarine, Character and Procedural Animation editors. Share and discover mods directly via Steam Workshop.<br><\\/li><li>All data exposed in xml and the game’s source code public on GitHub.<\\/li><\\/ul><h2 class=\\"bb_tag\\">How to host a server, where to leave a question?<\\/h2>Take a look at the pins at <a href=\\"https:\\/\\/steamcommunity.com\\/app\\/602960\\/discussions\\/0\\/\\" target=\\"_blank\\" rel=\\"\\"  >https:\\/\\/steamcommunity.com\\/app\\/602960\\/discussions\\/0\\/<\\/a> for FAQ and tips, and come say hi! We’re always grateful for feedback.<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/BARO_Beast_616x250.gif?t=1667402793\\" \\/>",
+            "about_the_game": "<strong>&quot;Work together to explore and survive, and\\/or sabotage one another and let the ship go down in fire and flood.&quot;<\\/strong><br>- Rock Paper Shotgun<h2 class=\\"bb_tag\\">WELCOME TO EUROPA<\\/h2>Barotrauma is a 2D co-op survival horror submarine simulator, inspired by games like FTL: Faster Than Light, Rimworld, Dwarf Fortress and Space Station 13. It’s a Sci-Fi game that combines ragdoll physics and alien sea monsters with teamwork and existential fear.<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/Baro_Comand_616x250.gif?t=1667402793\\" \\/><h2 class=\\"bb_tag\\">EMBRACE THE ABYSS<\\/h2>In the not too distant future, humanity has fled to Jupiter’s moon. With its irradiated icy surface, life can only be found in the ocean below. Travel through a punishing underwater world and discover what lies in the depths of Europa. Stay alert: danger in Barotrauma doesn’t announce itself.<h2 class=\\"bb_tag\\">HELP YOUR CREW SUCCEED, OR MAKE SURE NO ONE DOES<\\/h2>There are as many ways to enjoy Barotrauma as there are ways to die in it. Work together with your crew to achieve your goals, or brace for betrayal when you have a traitor on board. Play with friends, strangers, or your worst enemies.<h2 class=\\"bb_tag\\">EXPLORE, OPERATE, COMMUNICATE<\\/h2>Navigate underwater, complete missions for the last remnants of humankind, explore the ruins of an alien civilization, flee or fight monsters. Operate complex on-board systems and devices like the sonar, nuclear reactor, weapons, engines and pumps. Communication is key!<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/Baro_Possibilities_616x250.gif?t=1667402793\\" \\/><h2 class=\\"bb_tag\\">EXPERIMENT, CRAFT, CREATE<\\/h2>Master the complex on-board wiring and the comprehensive crafting and medical systems. Create your own submarines and monsters with built-in editors to rival the standard ones. Even tap directly into our source code and mod away.<h2 class=\\"bb_tag\\">Features<\\/h2><br><ul class=\\"bb_ul\\"><li>Best enjoyed in multiplayer, with 2–16 players on a submarine. Supplement your player count with bots as needed; single player also available and being developed further.<br><\\/li><li>6 player classes with different skills and tasks: Captain, Engineer, Mechanic, Medic, Security officer and Assistant.<br><\\/li><li>Procedurally generated map and missions with multiple game modes for virtually endless replayability.<br><\\/li><li>Built-in Submarine, Character and Procedural Animation editors. Share and discover mods directly via Steam Workshop.<br><\\/li><li>All data exposed in xml and the game’s source code public on GitHub.<\\/li><\\/ul><h2 class=\\"bb_tag\\">How to host a server, where to leave a question?<\\/h2>Take a look at the pins at <a href=\\"https:\\/\\/steamcommunity.com\\/app\\/602960\\/discussions\\/0\\/\\" target=\\"_blank\\" rel=\\"\\"  >https:\\/\\/steamcommunity.com\\/app\\/602960\\/discussions\\/0\\/<\\/a> for FAQ and tips, and come say hi! We’re always grateful for feedback.<br><img src=\\"https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/extras\\/BARO_Beast_616x250.gif?t=1667402793\\" \\/>",
+            "short_description": "Barotrauma is a 2D co-op submarine simulator – in space, with survival horror elements. Steer your submarine, give orders, fight monsters, fix leaks, operate machinery, man the guns and craft items, and stay alert: danger in Barotrauma doesn’t announce itself!",
+            "supported_languages": "English, French, German, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese, Spanish - Spain, Polish, Spanish - Latin America, Turkish, Japanese, Korean",
+            "reviews": "“Barotrauma is a bit like FTL with giant sea monsters”<br><a href=\\"https:\\/\\/www.pcgamer.com\\/multiplayer-ftl-like-barotrauma-will-enter-early-access-next-month\\/\\" target=\\"_blank\\" rel=\\"\\"  >PC Gamer<\\/a><br><br>“An absolute hoot”<br><a href=\\"https:\\/\\/www.rockpapershotgun.com\\/2019\\/06\\/06\\/co-op-space-submarine-game-barotrauma-just-hit-early-access-and-its-an-absolute-hoot\\/\\" target=\\"_blank\\" rel=\\"\\"  >Rock Paper Shotgun<\\/a><br>",
+            "header_image": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/header.jpg?t=1667402793",
+            "website": "http:\\/\\/barotraumagame.com\\/",
+            "pc_requirements": {
+                "minimum": "<strong>Minimum:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> Windows 7\\/8.1\\/10 (64-bit versions)<br><\\/li><li><strong>Processor:<\\/strong> Dual Core 2.4 GHz<br><\\/li><li><strong>Memory:<\\/strong> 4 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> 2 GB memory (dedicated VRAM or shared RAM), Shader Model 2.0+<br><\\/li><li><strong>DirectX:<\\/strong> Version 11<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>",
+                "recommended": "<strong>Recommended:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> Windows 7\\/8.1\\/10 (64-bit versions)<br><\\/li><li><strong>Processor:<\\/strong> Quad Core 3.0 GHz<br><\\/li><li><strong>Memory:<\\/strong> 8 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> GeForce GTX 950 or Radeon R9 370 or equivalent with at least 2 GB VRAM<br><\\/li><li><strong>DirectX:<\\/strong> Version 11<br><\\/li><li><strong>Network:<\\/strong> Broadband Internet connection<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>"
+            },
+            "mac_requirements": {
+                "minimum": "<strong>Minimum:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> OSX 10.15 or newer<br><\\/li><li><strong>Processor:<\\/strong> Dual Core 2.4 GHz<br><\\/li><li><strong>Memory:<\\/strong> 4 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> 2 GB memory (dedicated VRAM or shared RAM), OpenGL 3.0+ support<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>",
+                "recommended": "<strong>Recommended:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> OSX 10.15 or newer<br><\\/li><li><strong>Processor:<\\/strong> Quad Core 3.0 GHz<br><\\/li><li><strong>Memory:<\\/strong> 8 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> GeForce GTX 950 or Radeon R9 370 or equivalent with at least 2 GB VRAM<br><\\/li><li><strong>Network:<\\/strong> Broadband Internet connection<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>"
+            },
+            "linux_requirements": {
+                "minimum": "<strong>Minimum:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> Ubuntu 18.04 LTS<br><\\/li><li><strong>Processor:<\\/strong> Dual Core 2.4 GHz<br><\\/li><li><strong>Memory:<\\/strong> 4 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> 2 GB memory (dedicated VRAM or shared RAM), OpenGL 3.0+ support<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>",
+                "recommended": "<strong>Recommended:<\\/strong><br><ul class=\\"bb_ul\\"><li>Requires a 64-bit processor and operating system<br><\\/li><li><strong>OS:<\\/strong> Ubuntu 18.04 LTS<br><\\/li><li><strong>Processor:<\\/strong> Quad Core 3.0 GHz<br><\\/li><li><strong>Memory:<\\/strong> 8 GB RAM<br><\\/li><li><strong>Graphics:<\\/strong> GeForce GTX 950 or Radeon R9 370 or equivalent with at least 2 GB VRAM<br><\\/li><li><strong>Network:<\\/strong> Broadband Internet connection<br><\\/li><li><strong>Storage:<\\/strong> 1 GB available space<br><\\/li><li><strong>Additional Notes:<\\/strong> 64-bit operating system is required<\\/li><\\/ul>"
+            },
+            "legal_notice": "© 2019 Daedalic Entertainment GmbH and FakeFish Oy.<br \\/>\\r\\nBarotrauma, its logo, FakeFish and the FakeFish logo are trademarks of FakeFish, Finland.<br \\/>\\r\\nDaedalic and the Daedalic logo are trademarks of Daedalic Entertainment GmbH, Germany.",
+            "developers": [
+                "FakeFish",
+                "Undertow Games"
+            ],
+            "publishers": [
+                "Daedalic Entertainment"
+            ],
+            "price_overview": {
+                "currency": "EUR",
+                "initial": 2499,
+                "final": 2499,
+                "discount_percent": 0,
+                "initial_formatted": "",
+                "final_formatted": "24,99€"
+            },
+            "packages": [
+                158595,
+                376220
+            ],
+            "package_groups": [
+                {
+                    "name": "default",
+                    "title": "Buy Barotrauma",
+                    "description": "",
+                    "selection_text": "Select a purchase option",
+                    "save_text": "",
+                    "display_type": 0,
+                    "is_recurring_subscription": "false",
+                    "subs": [
+                        {
+                            "packageid": 158595,
+                            "percent_savings_text": " ",
+                            "percent_savings": 0,
+                            "option_text": "Barotrauma - 24,99€",
+                            "option_description": "",
+                            "can_get_free_license": "0",
+                            "is_free_license": false,
+                            "price_in_cents_with_discount": 2499
+                        },
+                        {
+                            "packageid": 376220,
+                            "percent_savings_text": " ",
+                            "percent_savings": 0,
+                            "option_text": "Barotrauma - Commercial License - 24,99€",
+                            "option_description": "",
+                            "can_get_free_license": "0",
+                            "is_free_license": false,
+                            "price_in_cents_with_discount": 2499
+                        }
+                    ]
+                }
+            ],
+            "platforms": {
+                "windows": true,
+                "mac": true,
+                "linux": true
+            },
+            "categories": [
+                {
+                    "id": 2,
+                    "description": "Single-player"
+                },
+                {
+                    "id": 1,
+                    "description": "Multi-player"
+                },
+                {
+                    "id": 49,
+                    "description": "PvP"
+                },
+                {
+                    "id": 36,
+                    "description": "Online PvP"
+                },
+                {
+                    "id": 9,
+                    "description": "Co-op"
+                },
+                {
+                    "id": 38,
+                    "description": "Online Co-op"
+                },
+                {
+                    "id": 22,
+                    "description": "Steam Achievements"
+                },
+                {
+                    "id": 29,
+                    "description": "Steam Trading Cards"
+                },
+                {
+                    "id": 30,
+                    "description": "Steam Workshop"
+                },
+                {
+                    "id": 23,
+                    "description": "Steam Cloud"
+                },
+                {
+                    "id": 17,
+                    "description": "Includes level editor"
+                }
+            ],
+            "genres": [
+                {
+                    "id": "1",
+                    "description": "Action"
+                },
+                {
+                    "id": "23",
+                    "description": "Indie"
+                },
+                {
+                    "id": "28",
+                    "description": "Simulation"
+                },
+                {
+                    "id": "2",
+                    "description": "Strategy"
+                },
+                {
+                    "id": "70",
+                    "description": "Early Access"
+                }
+            ],
+            "screenshots": [
+                {
+                    "id": 0,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_78ce500df2b49f416f312d60329b2c10d4c8e54c.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_78ce500df2b49f416f312d60329b2c10d4c8e54c.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 1,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_ffa389dffc482c6fc3cd888405763ec94268f5d6.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_ffa389dffc482c6fc3cd888405763ec94268f5d6.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 2,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_bb7296a544b52ca773692468ee89fef442214e87.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_bb7296a544b52ca773692468ee89fef442214e87.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 3,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_3c7030593220a304454fd6eb60626c7355d64d38.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_3c7030593220a304454fd6eb60626c7355d64d38.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 4,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_0d43a32c098aa80d27a7fcc886e7a5f68b1f7377.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_0d43a32c098aa80d27a7fcc886e7a5f68b1f7377.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 5,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_0a302bb32303cb753dd3c7930b96c4b335d3f6e7.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_0a302bb32303cb753dd3c7930b96c4b335d3f6e7.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 6,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_27b3f77af01d1d8f71365e5a2a78932a17cedc2a.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_27b3f77af01d1d8f71365e5a2a78932a17cedc2a.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 7,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_3201e565a45414baa197224e900b5b9b00c1b288.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_3201e565a45414baa197224e900b5b9b00c1b288.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 8,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_c6cddad779457cb7f5f6f96540cc506821469486.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_c6cddad779457cb7f5f6f96540cc506821469486.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 9,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_980978939eef5338aabbf4e69bde93a0124475d7.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_980978939eef5338aabbf4e69bde93a0124475d7.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 10,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f88534e2f622eba1a38acf850341db9722003f06.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f88534e2f622eba1a38acf850341db9722003f06.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 11,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f8a7ada4c9a5496e7c246bc030e00a72219bb75e.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f8a7ada4c9a5496e7c246bc030e00a72219bb75e.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 12,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f483eab7e1e36c8be302116f81af592864f87d1c.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_f483eab7e1e36c8be302116f81af592864f87d1c.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 13,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_8c87a2d899b5430aa739ae7d08a0f0eb0bf3ab28.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_8c87a2d899b5430aa739ae7d08a0f0eb0bf3ab28.1920x1080.jpg?t=1667402793"
+                },
+                {
+                    "id": 14,
+                    "path_thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_aee1152277915b2afe7d13c839108a88094b307b.600x338.jpg?t=1667402793",
+                    "path_full": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/ss_aee1152277915b2afe7d13c839108a88094b307b.1920x1080.jpg?t=1667402793"
+                }
+            ],
+            "movies": [
+                {
+                    "id": 256883087,
+                    "name": "Urban Expanses Trailer",
+                    "thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256883087\\/movie.293x165.jpg?t=1650468827",
+                    "webm": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256883087\\/movie480_vp9.webm?t=1650468827",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256883087\\/movie_max_vp9.webm?t=1650468827"
+                    },
+                    "mp4": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256883087\\/movie480.mp4?t=1650468827",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256883087\\/movie_max.mp4?t=1650468827"
+                    },
+                    "highlight": true
+                },
+                {
+                    "id": 256857688,
+                    "name": "Among the Ancients Trailer",
+                    "thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256857688\\/movie.293x165.jpg?t=1635346208",
+                    "webm": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256857688\\/movie480_vp9.webm?t=1635346208",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256857688\\/movie_max_vp9.webm?t=1635346208"
+                    },
+                    "mp4": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256857688\\/movie480.mp4?t=1635346208",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256857688\\/movie_max.mp4?t=1635346208"
+                    },
+                    "highlight": true
+                },
+                {
+                    "id": 256752531,
+                    "name": "Barotrauma Feature Trailer OUTNOW",
+                    "thumbnail": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256752531\\/movie.293x165.jpg?t=1559750419",
+                    "webm": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256752531\\/movie480.webm?t=1559750419",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256752531\\/movie_max.webm?t=1559750419"
+                    },
+                    "mp4": {
+                        "480": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256752531\\/movie480.mp4?t=1559750419",
+                        "max": "http:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/256752531\\/movie_max.mp4?t=1559750419"
+                    },
+                    "highlight": true
+                }
+            ],
+            "recommendations": {
+                "total": 25120
+            },
+            "achievements": {
+                "total": 45,
+                "highlighted": [
+                    {
+                        "name": "Killed a Moloch",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/051df3eba1e68f0d273b9aed2d0a5e2420130700.jpg"
+                    },
+                    {
+                        "name": "Stop the hammertime",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/418c47c058c62263da50bebf0a9f97b8a46caadb.jpg"
+                    },
+                    {
+                        "name": "The bigger they are, the harder they fall",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/4d135590e2920a1a0e1809aad030d9035e206e00.jpg"
+                    },
+                    {
+                        "name": "Xenoarchaeologist",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/9c4e2b31d15bf58b238c0a89bc4091f4a648f52c.jpg"
+                    },
+                    {
+                        "name": "For the Coalition",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/175a4abf410af1348ecf01b8382b44bd6167d2ea.jpg"
+                    },
+                    {
+                        "name": "Viva la Revolution",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/1803f313975f937e1906d14fbb0d3381b855cff6.jpg"
+                    },
+                    {
+                        "name":"Don\'t you die on me!",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/483621807a637cccf583b1fa4e7a4b052f073d1b.jpg"
+                    },
+                    {
+                        "name": "As good as new",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/375697f63a83981b20878ffe5be2871694e39f58.jpg"
+                    },
+                    {
+                        "name": "Insurgency",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/fb01ba12e87c06375de659314d38630956136e4a.jpg"
+                    },
+                    {
+                        "name": "Not on my watch",
+                        "path": "https:\\/\\/cdn.akamai.steamstatic.com\\/steamcommunity\\/public\\/images\\/apps\\/602960\\/367f3003ffd211c9a9f3ad0f758a6a96a24ae3ae.jpg"
+                    }
+                ]
+            },
+            "release_date": {
+                "coming_soon": false,
+                "date": "5 Jun, 2019"
+            },
+            "support_info": {
+                "url": "http:\\/\\/www.daedalicsupport.com",
+                "email": "support@daedalic.de or contact@barotraumagame.com"
+            },
+            "background": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/page_bg_generated_v6b.jpg?t=1667402793",
+            "background_raw": "https:\\/\\/cdn.akamai.steamstatic.com\\/steam\\/apps\\/602960\\/page.bg.jpg?t=1667402793",
+            "content_descriptors": {
+                "ids": [
+                    2,
+                    5
+                ],
+                "notes": "Contains violence, gore, and drug use."
+            }
+        }
+    }
+}'
