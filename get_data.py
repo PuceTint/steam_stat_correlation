@@ -4,6 +4,7 @@ import json
 import time
 import logging
 from typing import Iterable
+import random
 import re
 import asyncio
 import requests
@@ -18,16 +19,12 @@ logging.basicConfig(filename='.log',
                     level=LOGGING_LEVEL,
                     format='[%(levelname)s] %(asctime)s %(message)s', )
 
-with open('config.json', 'r', encoding='utf-8') as f:
-    config = json.load(f)
-STEAM_API_KEY: str = config['steam_api_key']
-
 # Get name to appid dict.
 try:
     with open('data/helpers/app_id_list.json', 'r', encoding='utf-8') as f:
         APP_NAME_TO_ID_DICT: dict[str, int] = json.load(f)
 except FileNotFoundError:
-    r = requests.get(f'http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key={STEAM_API_KEY}',
+    r = requests.get('http://api.steampowered.com/ISteamApps/GetAppList/v0002/',
                     timeout=10)
 
     APP_NAME_TO_ID_DICT = r.json()['applist']['apps']
@@ -72,7 +69,7 @@ async def get_app_ids(game_names: list[str]) -> int:
             if game_name in APP_NAME_TO_ID_DICT:
                 app_id =  APP_NAME_TO_ID_DICT[game_name]
             else:
-                url = f'https://store.steampowered.com/search/?term={game_name}&key={STEAM_API_KEY}'
+                url = f'https://store.steampowered.com/search/?term={game_name}'
                 tasks.append(asyncio.ensure_future(async_req(session, url, 'text')))
                 app_id = None
                 not_found_ids.append(i)
@@ -111,7 +108,7 @@ async def get_game_sizes(appids: list[int]) -> list[float]:
     tasks = []
     async with aiohttp.ClientSession() as session:
         for appid in appids:
-            tasks.append(asyncio.ensure_future(async_req(session, f"https://store.steampowered.com/api/appdetails/?appids={appid}&key={STEAM_API_KEY}", 'json')))
+            tasks.append(asyncio.ensure_future(async_req(session, f"https://store.steampowered.com/api/appdetails/?appids={appid}", 'json')))
 
         responses = await asyncio.gather(*tasks)
     
@@ -147,7 +144,7 @@ async def get_game_sizes(appids: list[int]) -> list[float]:
             size_list.append(float(size[0]))
         elif size[1] == 'MB':
             size_list.append(float(size[0]) / 1000)
-        elif size[1] == 'KB':
+        elif size[1] in ['KB', 'kB']:
             size_list.append(float(size[0]) / 1000000)
         elif size[1] == 'B':
             size_list.append(float(size[0]) / 1000000000)
@@ -164,7 +161,9 @@ async def get_game_review_ratios(appids: list[int]) -> list[float]:
     tasks = []
     async with aiohttp.ClientSession() as session:
         for appid in appids:
-            tasks.append(asyncio.ensure_future(async_req(session, f"https://store.steampowered.com/appreviews/{appid}?json=1&filter=recent&language=all&key={STEAM_API_KEY}", 'json')))
+            tasks.append(asyncio.ensure_future(async_req(
+                session,
+                f"https://store.steampowered.com/appreviews/{appid}?json=1&num_per_page=0&language=all", 'json')))
 
         responses = await asyncio.gather(*tasks)
     
@@ -183,6 +182,13 @@ async def get_game_review_ratios(appids: list[int]) -> list[float]:
 
     return review_ratios
 
+
+def random_game_names(n: int) -> list[str]:
+    """Get random game names."""
+    game_names = [random.choice(list(APP_NAME_TO_ID_DICT.keys())) for _ in range(n)]
+    return game_names
+
+
 async def process(game_names: Iterable[str]) -> list[dict]:
     """Process data."""
     # get appid, size, review ratio for each game.
@@ -197,12 +203,18 @@ async def process(game_names: Iterable[str]) -> list[dict]:
 
 
 async def main():
-    """Main. Run, save."""
+    """Main. Run, save.
+
+    For higher number of games, requests should be sent periodically.
+    Steam api accepts 10req/s.
+    """
     start = time.time()
 
 
-    with open('data/test/sample_game_names.json', 'r', encoding='utf-8') as f:
-        test_names: list[str] = json.load(f)
+    # with open('data/test/sample_game_names.json', 'r', encoding='utf-8') as f:
+    #     test_names: list[str] = json.load(f)
+
+    test_names = random_game_names(10)
 
     processed = await process(test_names)
 
