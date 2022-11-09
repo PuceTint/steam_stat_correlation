@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Half-Life 2",
+        "appid": 220,
+        "size": 6.5,
+        "review_ratio": 0.9751022834563066
+    },
+    {
+        "name": "Chroma Blast",
+        "appid": 653220,
+        "size": 0.215,
+        "review_ratio": 0.0
+    },
+    {
+        "name": "Noita",
+        "appid": 881100,
+        "size": 1.6,
+        "review_ratio": 0.9549363057324841
+    }
+]

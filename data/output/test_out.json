@@ -3,97 +3,97 @@
         "name": "People Playground",
         "appid": 1118200,
         "size": 0.35,
-        "review_ratio": 0.9893496404772181
+        "review_ratio": 0.9893411843777853
     },
     {
         "name": "Half-Life 2",
         "appid": 220,
         "size": 6.5,
-        "review_ratio": 0.975092702721612
+        "review_ratio": 0.9751025011146177
     },
     {
         "name": "Portal 2",
         "appid": 620,
         "size": 8.0,
-        "review_ratio": 0.9879456455292609
+        "review_ratio": 0.9879330867491631
     },
     {
         "name": "The Stanley Parable",
         "appid": 221910,
         "size": 3.0,
-        "review_ratio": 0.9243636752937398
+        "review_ratio": 0.9243490593807702
     },
     {
         "name": "The Talos Principle",
         "appid": 257510,
         "size": 5.0,
-        "review_ratio": 0.9548885301688408
+        "review_ratio": 0.95489443378119
     },
     {
         "name": "Fallout 76",
         "appid": 1151340,
         "size": 80.0,
-        "review_ratio": 0.7593276970586746
+        "review_ratio": 0.7593323216995448
     },
     {
         "name": "Stardew Valley",
         "appid": 413150,
         "size": 0.5,
-        "review_ratio": 0.9820398396673472
+        "review_ratio": 0.9820383942193394
     },
     {
         "name": "Terraria",
         "appid": 105600,
         "size": -1,
-        "review_ratio": 0.979722702587907
+        "review_ratio": 0.9797194536550342
     },
     {
         "name": "Factorio",
         "appid": 427520,
         "size": 3.0,
-        "review_ratio": 0.9893015953596375
+        "review_ratio": 0.9893099914442324
     },
     {
         "name": "Barotrauma",
         "appid": 602960,
         "size": 1.0,
-        "review_ratio": 0.9292535413019258
+        "review_ratio": 0.9292808899483512
     },
     {
         "name": "Subnautica",
         "appid": 264710,
         "size": 20.0,
-        "review_ratio": 0.9645847161852558
+        "review_ratio": 0.9646067896742155
     },
     {
         "name": "Satisfactory",
         "appid": 526870,
         "size": 15.0,
-        "review_ratio": 0.972663148544856
+        "review_ratio": 0.972633777081702
     },
     {
         "name": "The Long Dark",
         "appid": 305620,
         "size": 7.0,
-        "review_ratio": 0.9199056545217553
+        "review_ratio": 0.9199066777528201
     },
     {
         "name": "Don't Starve Together",
         "appid": 322330,
         "size": 3.0,
-        "review_ratio": 0.9621586327076611
+        "review_ratio": 0.962151900879676
     },
     {
         "name": "Minecraft",
         "appid": 1672970,
         "size": 6.0,
-        "review_ratio": 0.9139565136591712
+        "review_ratio": 0.914068299925761
     },
     {
         "name": "RimWorld",
         "appid": 294100,
         "size": 1.0,
-        "review_ratio": 0.982188924329715
+        "review_ratio": 0.9821860748448279
     },
     {
         "name": "Dwarf Fortress",
@@ -105,90 +105,90 @@
         "name": "The Forest",
         "appid": 242760,
         "size": 5.0,
-        "review_ratio": 0.9532068922205602
+        "review_ratio": 0.9532385898565728
     },
     {
         "name": "The Witcher 3: Wild Hunt",
         "appid": 292030,
         "size": 35.0,
-        "review_ratio": 0.9752103682262159
+        "review_ratio": 0.9752142906497634
     },
     {
         "name": "The Elder Scrolls V: Skyrim",
         "appid": 489830,
         "size": 12.0,
-        "review_ratio": 0.9440221207865168
+        "review_ratio": 0.944053736473807
     },
     {
         "name": "Fallout 4",
         "appid": 377160,
         "size": 30.0,
-        "review_ratio": 0.8242990453255354
+        "review_ratio": 0.8243323824719173
     },
     {
         "name": "Far Cry 4",
         "appid": 298110,
         "size": 30.0,
-        "review_ratio": 0.8292281598865909
+        "review_ratio": 0.829228783315194
     },
     {
         "name": "Assassin's Creed: Unity",
         "appid": 289650,
         "size": 50.0,
-        "review_ratio": 0.7582942523721234
+        "review_ratio": 0.7583891154089353
     },
     {
         "name": "Batman: Arkham Knight",
         "appid": 208650,
         "size": 45.0,
-        "review_ratio": 0.8916768560456025
+        "review_ratio": 0.8917723588428643
     },
     {
         "name": "Dying Light",
         "appid": 239140,
         "size": 40.0,
-        "review_ratio": 0.951691463517809
+        "review_ratio": 0.9517149811905289
     },
     {
         "name": "Metal Gear Solid V: The Phantom Pain",
         "appid": 287700,
         "size": 28.0,
-        "review_ratio": 0.9090316520005368
+        "review_ratio": 0.9090159849733583
     },
     {
         "name": "The Witcher 3: Wild Hunt",
         "appid": 292030,
         "size": 35.0,
-        "review_ratio": 0.9752103682262159
+        "review_ratio": 0.9752142906497634
     },
     {
         "name": "Grand Theft Auto V",
         "appid": 271590,
         "size": 72.0,
-        "review_ratio": 0.8556622954269812
+        "review_ratio": 0.8557073026172849
     },
     {
         "name": "The Elder Scrolls V: Skyrim",
         "appid": 489830,
         "size": 12.0,
-        "review_ratio": 0.9440221207865168
+        "review_ratio": 0.944053736473807
     },
     {
         "name": "Lost Ark",
         "appid": 1599340,
         "size": 50.0,
-        "review_ratio": 0.7223299375616168
+        "review_ratio": 0.7223563813184828
     },
     {
         "name": "Cyberpunk 2077",
         "appid": 1091500,
         "size": 70.0,
-        "review_ratio": 0.7842257690423379
+        "review_ratio": 0.7845509664158622
     },
     {
         "name": "Tom Clancy's Rainbow Six Siege",
         "appid": 359550,
         "size": 61.0,
-        "review_ratio": 0.873345260173788
+        "review_ratio": 0.873326864787729
     }
 ]
