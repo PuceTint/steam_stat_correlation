@@ -4,7 +4,7 @@ import json
 import time
 import logging
 from typing import Iterable
-import random
+from random import choice
 import re
 import asyncio
 import requests
@@ -33,6 +33,9 @@ except FileNotFoundError:
     with open('data/helpers/app_id_list.json', 'w', encoding='utf-8') as f:
         json.dump(APP_NAME_TO_ID_DICT, f, indent=4, ensure_ascii=False)
 
+STEAM_SEARCH_URL = 'https://store.steampowered.com/search/?term='
+STEAM_APPID_URL = 'https://store.steampowered.com/api/appdetails?appids='
+STEAM_REVIEW_URL = 'https://store.steampowered.com/appreviews/'
 
 async def async_req(session: aiohttp.ClientSession, url: str, resp_type: str):
     """
@@ -50,15 +53,21 @@ async def async_req(session: aiohttp.ClientSession, url: str, resp_type: str):
 
         raise ValueError('Invalid resp_type.')
 
-def size_regex(text: str) -> re.Match:
+def size_regex(text: str) -> re.Match[str] | None:
     """Regex to get size match from text."""
     size_match = re.search(
         r'(Storage:|Space:|Drive:)[^\d]*(\d+ ?[kKMGT]?B)',
         text)
     return size_match
 
-async def get_app_ids(game_names: list[str]) -> int:
-    """Get appid from steamAPI."""
+async def get_app_ids(game_names: list[str]) -> tuple[list[int], list[str]]:
+    """
+    Get appids for steam game names. If a game name is not found, searches steam and updates `game_names` with the new name.
+    
+    returns: `appids`, `game_names` (with names of games looked up on steam updated).
+        - returns -1 for failed games.
+
+    """
     app_ids = []
     tasks = []
     not_found_ids = []
@@ -69,7 +78,7 @@ async def get_app_ids(game_names: list[str]) -> int:
             if game_name in APP_NAME_TO_ID_DICT:
                 app_id =  APP_NAME_TO_ID_DICT[game_name]
             else:
-                url = f'https://store.steampowered.com/search/?term={game_name}'
+                url = STEAM_SEARCH_URL + game_name
                 tasks.append(asyncio.ensure_future(async_req(session, url, 'text')))
                 app_id = None
                 not_found_ids.append(i)
@@ -86,6 +95,7 @@ async def get_app_ids(game_names: list[str]) -> int:
             # UPDATE GAME NAME from search result (updated_game_names = [], update, ...)
             app_id = soup.find(class_='search_result_row')['data-ds-appid']
             app_id = int(app_id)
+            game_names[not_found_ids[i]] = soup.find(class_='title').text
         except TypeError:
             logging.warning('get_app_id failed. Returning -1.')
             app_id =  -1
@@ -96,19 +106,22 @@ async def get_app_ids(game_names: list[str]) -> int:
     assert None not in app_ids, 'NONE FOUND IN APP_IDS'
     assert len(app_ids) == len(game_names), 'app_ids and game_names are not the same length???'
 
-    return app_ids
+    return app_ids, game_names
 
 
-async def get_game_sizes(appids: list[int]) -> list[float]:
+async def get_game_sizes(appids: list[str | int]) -> list[float]:
     """
     Get game sizes in GB from steamAPI.
     
     RETURNS -1.0 for failed games.
     """
+    if not all(isinstance(appid, str) for appid in appids):
+        appids = list(map(str, appids))
+
     tasks = []
     async with aiohttp.ClientSession() as session:
         for appid in appids:
-            tasks.append(asyncio.ensure_future(async_req(session, f"https://store.steampowered.com/api/appdetails/?appids={appid}", 'json')))
+            tasks.append(asyncio.ensure_future(async_req(session, STEAM_APPID_URL + appid, 'json')))
 
         responses = await asyncio.gather(*tasks)
     
@@ -116,11 +129,10 @@ async def get_game_sizes(appids: list[int]) -> list[float]:
     size_list = []
     for i, response in enumerate(responses):
 
-        # # TODO regex?
         pc_requirements: str = response[str(appids[i])]['data']['pc_requirements']['minimum']
 
-        # strip off any html tags
         soup = BeautifulSoup(pc_requirements, "html.parser")
+        # strip off any html tags
         pc_requirements = soup.get_text()
 
         # text -> ('10', 'MB')
@@ -156,14 +168,17 @@ async def get_game_sizes(appids: list[int]) -> list[float]:
     return size_list
 
 
-async def get_game_review_ratios(appids: list[int]) -> list[float]:
+async def get_game_review_ratios(appids: list[str | int]) -> list[float]:
     """Get game review ratios from steamAPI."""
+    if not all(isinstance(appid, str) for appid in appids):
+        appids = list(map(str, appids))
+
     tasks = []
     async with aiohttp.ClientSession() as session:
         for appid in appids:
             tasks.append(asyncio.ensure_future(async_req(
                 session,
-                f"https://store.steampowered.com/appreviews/{appid}?json=1&num_per_page=0&language=all", 'json')))
+                STEAM_REVIEW_URL + appid + "?json=1&num_per_page=0&language=all", 'json')))
 
         responses = await asyncio.gather(*tasks)
     
@@ -185,14 +200,14 @@ async def get_game_review_ratios(appids: list[int]) -> list[float]:
 
 def random_game_names(n: int) -> list[str]:
     """Get random game names."""
-    game_names = [random.choice(list(APP_NAME_TO_ID_DICT.keys())) for _ in range(n)]
+    game_names = [choice(list(APP_NAME_TO_ID_DICT.keys())) for _ in range(n)]
     return game_names
 
 
 async def process(game_names: Iterable[str]) -> list[dict]:
     """Process data."""
     # get appid, size, review ratio for each game.
-    appids = await get_app_ids(game_names)
+    appids, game_names = await get_app_ids(game_names)
     sizes = await get_game_sizes(appids)
     review_ratios = await get_game_review_ratios(appids)
 
@@ -211,10 +226,9 @@ async def main():
     start = time.time()
 
 
-    # with open('data/test/sample_game_names.json', 'r', encoding='utf-8') as f:
-    #     test_names: list[str] = json.load(f)
-
     test_names = random_game_names(10)
+    # with open('data/helpers/sample_game_names.json', 'r', encoding='utf-8') as f:
+    #     test_names: list[str] = json.load(f)
 
     processed = await process(test_names)
 

@@ -1,0 +1,38 @@
+{
+    "game_names": [
+        "Half-Life 2",
+        "The Stanley Parable",
+        "Noita",
+        "Chroma Blast",
+        "Mad Max"
+    ],
+    "appids": [
+        220,
+        221910,
+        881100,
+        653220,
+        234140
+    ],
+    "sizes": [
+        6.5,
+        3.0,
+        1.6,
+        0.215,
+        32.0
+    ],
+    "review_ratios": [
+        0.9750830274427548,
+        0.9243778431897244,
+        0.9549289368959636,
+        0.0,
+        0.9118392775215513
+    ],
+    "regex": {
+        "Storage:</strong> 5 GB available space": "5 GB",
+        "Storage:</strong> 80 GB available space": "80 GB"
+    },
+    "regex_truth": [
+        "5 GB",
+        "80 GB"
+    ]
+}
